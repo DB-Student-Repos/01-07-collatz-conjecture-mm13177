@@ -1,5 +1,5 @@
 def steps(number):
-    if number(<=0):
+    if number <= 0:
         raise ValueError ('Plase choose a positive number greater than 0')
     else:
         zaehler = 0
