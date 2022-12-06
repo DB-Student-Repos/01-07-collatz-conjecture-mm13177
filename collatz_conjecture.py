@@ -1,6 +1,7 @@
 def steps(number):
+    
     if number <= 0:
-        raise ValueError ('Plase choose a positive number greater than 0')
+        raise ValueError('Only positive numbers are allowed')
     else:
         zaehler = 0
         while (number !=1):
